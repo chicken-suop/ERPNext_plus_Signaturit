@@ -1,2 +1,7 @@
-# ERPNext_plus_Signaturit
+## ERPNext_plus_Signaturit
+
 An integration of ERPNext and Signaturit
+
+#### License
+
+MIT
