@@ -6,5 +6,6 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class Needsaname(Document):
-	pass
+class Settings(Document):
+	def validate(self):
+		pass

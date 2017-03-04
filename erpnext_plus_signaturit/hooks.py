@@ -80,32 +80,18 @@ app_license = "MIT"
 
 # doc_events = {
 # 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
+# 		"on_update": "erpnext_plus_signaturit.tasks.inbox"
+# 	}
 # }
 
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"erpnext_plus_signaturit.tasks.all"
-# 	],
-# 	"daily": [
-# 		"erpnext_plus_signaturit.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"erpnext_plus_signaturit.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"erpnext_plus_signaturit.tasks.weekly"
-# 	]
-# 	"monthly": [
-# 		"erpnext_plus_signaturit.tasks.monthly"
-# 	]
-# }
+scheduler_events = {
+	"hourly": [
+		"erpnext_plus_signaturit.tasks.inbox"
+	]
+}
 
 # Testing
 # -------
